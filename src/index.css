@@ -104,6 +104,27 @@ main {
     display: flex;
     color: #cfcfcf;
     height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-info-left {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bigLogo {
+    position: relative;
+    z-index: 0;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+#big-logo {
+    height: 500px;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 
@@ -141,20 +162,20 @@ main {
     color: #0282f9;
 }
 
-#big-logo {
-    height: 300px;
-}
 
-
-/* Footer BUTTON  */
+/* Footer BUTTOM  */
 
 .footer-buttom {
+    position: relative;
+    z-index: 1;
     height: 120px;
     background-color: #303030;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.footer-buttom,
-.container {
+.footer-buttom .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
