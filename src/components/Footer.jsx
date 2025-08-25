@@ -91,13 +91,13 @@ const Footer = () => {
       </div>
 
       {/* Sezione footer-button */}
-      <div className="footer-button">
+      <div className="footer-buttom">
         <div className="container">
           <div className="button">
             <a href="#" class="btn">SIGN-UP NOW!</a>
           </div>
           <div className="social">
-            <p>FOLLOW US</p>
+            <p id='follow-us'>FOLLOW US</p>
             <img src="./img/footer-facebook.png" alt="" />
             <img src="./img/footer-periscope.png" alt="" />
             <img src="./img/footer-facebook.png" alt="" />
@@ -105,7 +105,6 @@ const Footer = () => {
             <img src="./img/footer-periscope.png" alt="" />
           </div>
         </div>
-
       </div>
 
 

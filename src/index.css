@@ -148,15 +148,16 @@ main {
 
 /* Footer BUTTON  */
 
-.footer-button {
-    height: 100px;
+.footer-buttom {
+    height: 120px;
     background-color: #303030;
 }
 
-.footer-button .container {
+.footer-buttom,
+.container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -172,7 +173,7 @@ main {
     font-size: 18px;
 }
 
-.btn-link:hover {
+.btn:hover {
     background-color: #0282f9;
     color: white;
 }
@@ -184,4 +185,16 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 15px;
+}
+
+#follow-us {
+    color: #0282f9;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.social img:hover {
+    filter: brightness(0) invert(1);
+    cursor: pointer;
 }
