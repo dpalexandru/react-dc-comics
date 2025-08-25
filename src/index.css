@@ -8,11 +8,40 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    ;
 }
+
+
+/*  HEATER STYLE  */
 
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 120px;
+    background-color: #FFFFFF;
 }
+
+#logo {
+    height: 80px;
+}
+
+#menuHeader {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#menuHeader a {
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+#menuHeader a:hover {
+    color: #007bff;
+}
+
+
+/*  MAIN TYLE  */
