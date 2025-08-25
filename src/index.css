@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -36,7 +40,7 @@ header {
     text-decoration: none;
     margin: 10px;
     color: black;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #menuHeader a:hover {
@@ -45,3 +49,15 @@ header {
 
 
 /*  MAIN TYLE  */
+
+main {
+    background-color: black;
+    color: white;
+    height: 130px;
+}
+
+#content {
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
