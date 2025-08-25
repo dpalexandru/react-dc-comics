@@ -61,3 +61,34 @@ main {
     font-size: 30px;
     font-weight: 500;
 }
+
+
+/*  FOOTER STYLE  */
+
+.utilityMenu {
+    background-color: #0082F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+#svg-img {
+    height: 45px;
+    margin-right: 15px;
+}
+
+.imgUtility {
+    height: 70px;
+    margin-right: 15px;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 20px
+}
