@@ -57,7 +57,7 @@
         font-size: 30px;
         font-weight: 500;
     }
-    /*  FOOTER STYLE  */
+    /*  FOOTER STYLE  Sezione footer-service */
     
     .utilityMenu {
         background-color: #0082F9;
@@ -95,11 +95,12 @@
     .footer-info {
         display: flex;
         color: #cfcfcf;
+        height: 350px;
     }
     /* titoli e liste */
     
     .footer-col {
-        margin-right: 20px;
+        margin-right: 10px;
     }
     
     .footer-col h4 {
@@ -123,10 +124,13 @@
     .footer-col a {
         color: #bdbdbd;
         text-decoration: none;
-        transition: color .2s ease;
         font-size: 14px;
     }
     
     .footer-col a:hover {
         color: #0282f9;
+    }
+    
+    #big-logo {
+        height: 300px;
     }

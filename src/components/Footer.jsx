@@ -82,7 +82,14 @@ const Footer = () => {
               <li><a href="#">DC Power Visa</a></li>
             </ul>
           </div>
+
+          <div className="bigLogo">
+            <img id="big-logo" src="./img/dc-logo-bg.png" alt="" />
+
+          </div>
         </div>
+
+
       </div>
 
 
