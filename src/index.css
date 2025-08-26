@@ -229,25 +229,28 @@ header {
 main {
     background-color: black;
     color: white;
-    height: 500px;
+    height: 600px;
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
+    gap: 6px;
 }
 
 .col-20 {
-    width: 20%;
+    width: 16%;
 }
 
 .comics-card {
     height: 200px;
     margin-top: 30px;
+    cursor: pointer;
+    padding: 20px;
 }
 
 .comics-card img {
-    height: 200px;
+    height: 150px;
     width: 100%;
     object-fit: cover;
     background-size: cover;
@@ -256,4 +259,7 @@ main {
 
 .comics-card h4 {
     text-transform: uppercase;
+    font-size: 13px;
+    color: #abaaa8;
+    margin-top: 5px;
 }
