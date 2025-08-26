@@ -50,21 +50,6 @@ header {
 }
 
 
-/*  MAIN TYLE  */
-
-main {
-    background-color: black;
-    color: white;
-    height: 130px;
-}
-
-#content {
-    padding-top: 40px;
-    font-size: 30px;
-    font-weight: 500;
-}
-
-
 /*  FOOTER STYLE  Sezione footer-service */
 
 .utilityMenu {
@@ -73,6 +58,8 @@ main {
     justify-content: center;
     align-items: center;
     height: 150px;
+    position: relative;
+    z-index: 1;
 }
 
 #svg-img {
@@ -124,7 +111,7 @@ main {
 }
 
 #big-logo {
-    height: 450px;
+    height: 500px;
     max-width: 100%;
     object-fit: contain;
 }
@@ -220,4 +207,19 @@ main {
 .social img:hover {
     filter: brightness(0) invert(1);
     cursor: pointer;
+}
+
+
+/*  ****** MAIN STYLE ********  */
+
+main {
+    background-color: black;
+    color: white;
+    height: 130px;
+}
+
+#content {
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
 }

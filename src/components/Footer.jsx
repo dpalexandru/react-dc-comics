@@ -102,9 +102,9 @@ const Footer = () => {
             <p id='follow-us'>FOLLOW US</p>
             <img src="./img/footer-facebook.png" alt="" />
             <img src="./img/footer-periscope.png" alt="" />
-            <img src="./img/footer-facebook.png" alt="" />
-            <img src="./img/footer-periscope.png" alt="" />
-            <img src="./img/footer-periscope.png" alt="" />
+            <img src="./img/footer-pinterest.png" alt="" />
+            <img src="./img/footer-twitter.png" alt="" />
+            <img src="./img/footer-youtube.png" alt="" />
           </div>
         </div>
       </div>
@@ -115,4 +115,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
