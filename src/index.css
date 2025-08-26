@@ -221,6 +221,18 @@ header {
     background-image: url("/img/jumbotron.jpg");
     height: 280px;
     background-size: cover;
+    position: relative;
+}
+
+.btn-current-series {
+    color: white;
+    background-color: #007bff;
+    width: 170px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 6px 10px;
+    position: absolute;
+    bottom: -18px;
 }
 
 
@@ -229,7 +241,7 @@ header {
 main {
     background-color: black;
     color: white;
-    height: 560px;
+    padding-bottom: 10px;
 }
 
 .row {
