@@ -86,14 +86,16 @@ header {
     cursor: pointer;
     margin: 0 20px;
     padding: 10px;
-    transition: all 0.3s ease;
+    transition: all 0.1s ease;
 }
 
 .service:hover {
     scale: 1.05;
+    border-radius: 20px;
     border-bottom: 3px solid white;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.7);
     filter: brightness(1.2);
+    background-color: #02509a;
 }
 
 
@@ -106,14 +108,17 @@ header {
 .footer-info {
     display: flex;
     color: #cfcfcf;
-    height: 350px;
+    height: 360px;
     display: flex;
     justify-content: space-between;
 }
 
 .col-info-left {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: start;
+    flex-direction: column;
+    height: 360px;
 }
 
 .bigLogo {
@@ -166,7 +171,7 @@ header {
 }
 
 
-/* Footer BUTTOM  */
+/* Footer BOTTOM  */
 
 .footer-buttom {
     position: relative;
