@@ -229,11 +229,31 @@ header {
 main {
     background-color: black;
     color: white;
-    height: 130px;
+    height: 500px;
 }
 
-#content {
-    padding-top: 40px;
-    font-size: 30px;
-    font-weight: 500;
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+.comics-card {
+    height: 200px;
+    margin-top: 30px;
+}
+
+.comics-card img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    object-position: top;
+}
+
+.comics-card h4 {
+    text-transform: uppercase;
 }
