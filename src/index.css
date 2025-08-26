@@ -215,6 +215,15 @@ header {
 }
 
 
+/*  ****** jumbotron STYLE ********  */
+
+.jumbotron {
+    background-image: url("/img/jumbotron.jpg");
+    height: 280px;
+    background-size: cover;
+}
+
+
 /*  ****** MAIN STYLE ********  */
 
 main {
