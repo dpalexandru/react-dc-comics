@@ -176,6 +176,11 @@ const Main = () => {
             </div>
           ))}
         </div>
+
+        <div className="row align-center">
+          <div className="btn-load-more">LOAD MORE</div>
+
+        </div>
       </div>
     </main>
   )
