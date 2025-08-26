@@ -39,12 +39,14 @@ header {
 #menuHeader a {
     text-decoration: none;
     margin: 10px;
+    padding-bottom: 44px;
     color: black;
     font-weight: 500;
 }
 
 #menuHeader a:hover {
     color: #007bff;
+    border-bottom: 6px solid #0082F9;
 }
 
 
@@ -122,7 +124,7 @@ main {
 }
 
 #big-logo {
-    height: 500px;
+    height: 450px;
     max-width: 100%;
     object-fit: contain;
 }
