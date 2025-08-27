@@ -272,8 +272,13 @@ main {
 .comics-card {
     height: 200px;
     margin-top: 30px;
-    cursor: pointer;
     padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.comics-card:hover {
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .comics-card img {
@@ -310,4 +315,61 @@ main {
     color: #0082F9;
     background-color: white;
     cursor: pointer;
+}
+
+
+/*  R E S P O N S I V E   S T Y L E  */
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.menu-toggle .bar {
+    display: block;
+    width: 28px;
+    height: 3px;
+    margin: 4px 0;
+    background-color: #000000;
+    transition: 0.3s;
+    margin-right: 20px;
+}
+
+
+/* Nascondi sotto 991 px */
+
+@media (max-width: 991px) {
+    .menu-toggle {
+        display: flex;
+    }
+    #menuHeader {
+        display: none;
+    }
+    .imgUtility,
+    #svg-img {
+        display: none;
+    }
+    .utilityMenu {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    #follow-us {
+        display: none;
+    }
+}
+
+@media (max-width: 700px) {
+    #big-logo {
+        display: none;
+    }
+    .col-info-left {
+        margin-left: 30px;
+    }
 }
