@@ -34,4 +34,4 @@ Bonus: Provare a centralizzare i dati facendoli partire tutti da App.jsx e passa
 
 Questo è stato il mio primo approccio con React. Ho capito come organizzare il codice in componenti, come usare gli array per generare liste con la funzione map() e come gestire le classi per dare stile agli elementi. React aiuta a scrivere un codice più pulito e riutilizzabile. Mi ha fatto piacere vedere il mio progetto prendere forma e ho capito meglio come HTML, CSS e JavaScript possono lavorare insieme dentro una <code>SPA.</code>
 
-### Consegna 26/08/2025
+### Consegna 27/08/2025
