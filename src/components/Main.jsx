@@ -1,4 +1,5 @@
 import React from 'react'
+import Card from './Card';
 
 const Main = () => {
   const comics = [
@@ -169,10 +170,8 @@ const Main = () => {
           {/*Iterazione array comics*/}
           {comics.map((comic) => (
             <div className="col-20" key={comic.id}>
-              <div className="comics-card">
-                <img src={comic.thumb} alt={comic.title} />
-                <h4>{comic.title}</h4>
-              </div>
+              <Card comic={comic} />
+
             </div>
           ))}
         </div>
