@@ -1,4 +1,6 @@
 import React from 'react'
+import BurgerMenu from "./BurgerMenu"
+
 
 
 
@@ -9,7 +11,10 @@ const Header = ({ menuItems }) => {
       <div className="logo">
         <img id="logo" src="./img/dc-logo.png" alt="logo" />
       </div>
+
       <nav>
+        <BurgerMenu />
+
         <ul id="menuHeader">
 
           {/*Itero l' array di ogetti Items */}
@@ -21,14 +26,10 @@ const Header = ({ menuItems }) => {
             </li>
           ))}
         </ul>
-        <button className="menu-toggle" aria-label="Toggle menu">
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </button>
       </nav>
 
     </header>
+
   )
 }
 
